@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F185CCE2C44270A002452B8 /* AirBnbApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F185CCD2C44270A002452B8 /* AirBnbApp.swift */; };
+		7F185CD02C44270A002452B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F185CCF2C44270A002452B8 /* ContentView.swift */; };
+		7F185CD22C44270C002452B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F185CD12C44270C002452B8 /* Assets.xcassets */; };
+		7F185CD52C44270C002452B8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F185CD42C44270C002452B8 /* Preview Assets.xcassets */; };
+		7F185CE82C442DB3002452B8 /* Explore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F185CE72C442DB3002452B8 /* Explore.swift */; };
+		7F185CEA2C442FE7002452B8 /* ListingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F185CE92C442FE7002452B8 /* ListingView.swift */; };
+		7F40B3112C443930004E525E /* SearchAndFilterBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F40B3102C443930004E525E /* SearchAndFilterBar.swift */; };
+		7F40B3132C443BA4004E525E /* ListingDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F40B3122C443BA4004E525E /* ListingDataView.swift */; };
+		7F40B3162C443C27004E525E /* ListingImageCarouseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F40B3152C443C27004E525E /* ListingImageCarouseView.swift */; };
+		7F40B3182C445499004E525E /* DestinationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F40B3172C445499004E525E /* DestinationSearchView.swift */; };
+		7F40B31A2C447CEC004E525E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F40B3192C447CEC004E525E /* ProfileView.swift */; };
+		7F40B31D2C448039004E525E /* WishlistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F40B31C2C448039004E525E /* WishlistView.swift */; };
+		7F40B31F2C4485C4004E525E /* MainTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F40B31E2C4485C4004E525E /* MainTab.swift */; };
+		7F45558B2C500EBE00A93412 /* Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F45558A2C500EBE00A93412 /* Preview.swift */; };
+		7F45558D2C5013EB00A93412 /* ExploreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F45558C2C5013EB00A93412 /* ExploreService.swift */; };
+		7F45558F2C50140600A93412 /* ExploreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F45558E2C50140600A93412 /* ExploreViewModel.swift */; };
+		7FFE42CE2C4D1655000A6A4F /* Listing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFE42CD2C4D1655000A6A4F /* Listing.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7F185CCA2C44270A002452B8 /* AirBnb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirBnb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F185CCD2C44270A002452B8 /* AirBnbApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirBnbApp.swift; sourceTree = "<group>"; };
+		7F185CCF2C44270A002452B8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7F185CD12C44270C002452B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F185CD42C44270C002452B8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7F185CE72C442DB3002452B8 /* Explore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Explore.swift; sourceTree = "<group>"; };
+		7F185CE92C442FE7002452B8 /* ListingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingView.swift; sourceTree = "<group>"; };
+		7F40B3102C443930004E525E /* SearchAndFilterBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAndFilterBar.swift; sourceTree = "<group>"; };
+		7F40B3122C443BA4004E525E /* ListingDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingDataView.swift; sourceTree = "<group>"; };
+		7F40B3152C443C27004E525E /* ListingImageCarouseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingImageCarouseView.swift; sourceTree = "<group>"; };
+		7F40B3172C445499004E525E /* DestinationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationSearchView.swift; sourceTree = "<group>"; };
+		7F40B3192C447CEC004E525E /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		7F40B31C2C448039004E525E /* WishlistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistView.swift; sourceTree = "<group>"; };
+		7F40B31E2C4485C4004E525E /* MainTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTab.swift; sourceTree = "<group>"; };
+		7F45558A2C500EBE00A93412 /* Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preview.swift; sourceTree = "<group>"; };
+		7F45558C2C5013EB00A93412 /* ExploreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreService.swift; sourceTree = "<group>"; };
+		7F45558E2C50140600A93412 /* ExploreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewModel.swift; sourceTree = "<group>"; };
+		7F511A442C4510E800059BB8 /* AirBnb.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AirBnb.entitlements; sourceTree = "<group>"; };
+		7FFE42CD2C4D1655000A6A4F /* Listing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listing.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F185CC72C44270A002452B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F185CC12C44270A002452B8 = {
+			isa = PBXGroup;
+			children = (
+				7F185CCC2C44270A002452B8 /* AirBnb */,
+				7F185CCB2C44270A002452B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F185CCB2C44270A002452B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F185CCA2C44270A002452B8 /* AirBnb.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F185CCC2C44270A002452B8 /* AirBnb */ = {
+			isa = PBXGroup;
+			children = (
+				7F511A442C4510E800059BB8 /* AirBnb.entitlements */,
+				7F185CDB2C442C98002452B8 /* App */,
+				7F185CDC2C442C9B002452B8 /* Core */,
+				7F185CDD2C442CAF002452B8 /* Extensions */,
+				7F185CDF2C442CD2002452B8 /* Models */,
+				7F185CE02C442CEB002452B8 /* Utils */,
+				7F185CCF2C44270A002452B8 /* ContentView.swift */,
+				7F185CD12C44270C002452B8 /* Assets.xcassets */,
+				7F185CD32C44270C002452B8 /* Preview Content */,
+			);
+			path = AirBnb;
+			sourceTree = "<group>";
+		};
+		7F185CD32C44270C002452B8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7F185CD42C44270C002452B8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7F185CDB2C442C98002452B8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7F185CCD2C44270A002452B8 /* AirBnbApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7F185CDC2C442C9B002452B8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				7F40B31B2C448022004E525E /* WishlistView */,
+				7F40B3142C443C0B004E525E /* Components */,
+				7F185CE22C442D55002452B8 /* Explore */,
+				7F185CE12C442D50002452B8 /* Listings */,
+				7F185CE32C442D61002452B8 /* Profile */,
+				7F185CE42C442D67002452B8 /* MapView */,
+				7F185CE52C442D72002452B8 /* Root */,
+				7F185CE62C442D77002452B8 /* TabBar */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		7F185CDD2C442CAF002452B8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7F45558A2C500EBE00A93412 /* Preview.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7F185CDF2C442CD2002452B8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7FFE42CD2C4D1655000A6A4F /* Listing.swift */,
+				7F45558E2C50140600A93412 /* ExploreViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7F185CE02C442CEB002452B8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7F45558C2C5013EB00A93412 /* ExploreService.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		7F185CE12C442D50002452B8 /* Listings */ = {
+			isa = PBXGroup;
+			children = (
+				7F185CE92C442FE7002452B8 /* ListingView.swift */,
+				7F40B3122C443BA4004E525E /* ListingDataView.swift */,
+			);
+			path = Listings;
+			sourceTree = "<group>";
+		};
+		7F185CE22C442D55002452B8 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				7F185CE72C442DB3002452B8 /* Explore.swift */,
+				7F40B3102C443930004E525E /* SearchAndFilterBar.swift */,
+				7F40B3172C445499004E525E /* DestinationSearchView.swift */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		7F185CE32C442D61002452B8 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				7F40B3192C447CEC004E525E /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		7F185CE42C442D67002452B8 /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
+		7F185CE52C442D72002452B8 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		7F185CE62C442D77002452B8 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				7F40B31E2C4485C4004E525E /* MainTab.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		7F40B3142C443C0B004E525E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				7F40B3152C443C27004E525E /* ListingImageCarouseView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		7F40B31B2C448022004E525E /* WishlistView */ = {
+			isa = PBXGroup;
+			children = (
+				7F40B31C2C448039004E525E /* WishlistView.swift */,
+			);
+			path = WishlistView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F185CC92C44270A002452B8 /* AirBnb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F185CD82C44270C002452B8 /* Build configuration list for PBXNativeTarget "AirBnb" */;
+			buildPhases = (
+				7F185CC62C44270A002452B8 /* Sources */,
+				7F185CC72C44270A002452B8 /* Frameworks */,
+				7F185CC82C44270A002452B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirBnb;
+			productName = AirBnb;
+			productReference = 7F185CCA2C44270A002452B8 /* AirBnb.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F185CC22C44270A002452B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					7F185CC92C44270A002452B8 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 7F185CC52C44270A002452B8 /* Build configuration list for PBXProject "AirBnb" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F185CC12C44270A002452B8;
+			productRefGroup = 7F185CCB2C44270A002452B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F185CC92C44270A002452B8 /* AirBnb */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F185CC82C44270A002452B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F185CD52C44270C002452B8 /* Preview Assets.xcassets in Resources */,
+				7F185CD22C44270C002452B8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F185CC62C44270A002452B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F185CD02C44270A002452B8 /* ContentView.swift in Sources */,
+				7F45558D2C5013EB00A93412 /* ExploreService.swift in Sources */,
+				7F40B31A2C447CEC004E525E /* ProfileView.swift in Sources */,
+				7F40B3182C445499004E525E /* DestinationSearchView.swift in Sources */,
+				7F40B31D2C448039004E525E /* WishlistView.swift in Sources */,
+				7F40B3132C443BA4004E525E /* ListingDataView.swift in Sources */,
+				7F45558F2C50140600A93412 /* ExploreViewModel.swift in Sources */,
+				7F40B3162C443C27004E525E /* ListingImageCarouseView.swift in Sources */,
+				7F185CEA2C442FE7002452B8 /* ListingView.swift in Sources */,
+				7F45558B2C500EBE00A93412 /* Preview.swift in Sources */,
+				7F185CCE2C44270A002452B8 /* AirBnbApp.swift in Sources */,
+				7F40B3112C443930004E525E /* SearchAndFilterBar.swift in Sources */,
+				7F185CE82C442DB3002452B8 /* Explore.swift in Sources */,
+				7FFE42CE2C4D1655000A6A4F /* Listing.swift in Sources */,
+				7F40B31F2C4485C4004E525E /* MainTab.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7F185CD62C44270C002452B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F185CD72C44270C002452B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F185CD92C44270C002452B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AirBnb/AirBnb.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AirBnb/Preview Content\"";
+				DEVELOPMENT_TEAM = 7X9J8J3C3W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaancpapi.AirBnb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F185CDA2C44270C002452B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AirBnb/AirBnb.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AirBnb/Preview Content\"";
+				DEVELOPMENT_TEAM = 7X9J8J3C3W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaancpapi.AirBnb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F185CC52C44270A002452B8 /* Build configuration list for PBXProject "AirBnb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F185CD62C44270C002452B8 /* Debug */,
+				7F185CD72C44270C002452B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F185CD82C44270C002452B8 /* Build configuration list for PBXNativeTarget "AirBnb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F185CD92C44270C002452B8 /* Debug */,
+				7F185CDA2C44270C002452B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F185CC22C44270A002452B8 /* Project object */;
+}
